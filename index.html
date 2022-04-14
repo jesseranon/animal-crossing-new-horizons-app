@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>ACNH Villagers</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>ACNH Villagers</h1>
+
+		<section class="container">
+			<details>
+				<summary><h2>By Alphabet</h2></summary>
+				<ul id="alphabet-list"></ul>
+			</details>
+			<details>
+				<summary><h2>By Species</h2></summary>
+				<div>
+					<ul id="species-list"></ul>
+				</div>
+			</details>
+			<details>
+				<summary><h2>By Personality</h2></summary>
+				<div>
+					<ul id="personalities-list"></ul>
+				</div>
+			</details>
+			<details>
+				<summary><h2>By Birth Month</h2></summary>
+				<div>
+					<ul id="months-list"></ul>
+				</div>
+			</details>
+			<details>
+				<summary><h2>By Star Sign</h2></summary>
+				<div>
+					<ul id="signs-list"></ul>
+				</div>
+			</details>
+		</section>
+
+		<section class="search">
+			<input class="search-bar" type="text" placeholder="Search by Name">
+		</section>
+
+		<section class="sub-category-results">
+			<ul></ul>
+		</section>
+
+		<section class="container">
+			<h2></h2>
+			<ul id="filtered-names"></ul>
+		</section>
+
+		<article id="villager-passport" class="hidden">
+			<h2 id="villager-name">Name</h2>
+			<img id="villager-photo" src="" alt="">
+			<img id="villager-icon" src="" alt="">
+			<span id="villager-birthdate"></span>
+			<span id="villager-personality"></span>
+			<span id="villager-quote"></span>
+		</article>
+
+		<script type="module" src="js/main.js"></script>
+		<script type="module" src="apikey.js"></script>
+	</body>
+</html>
